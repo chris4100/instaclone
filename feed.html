@@ -2,72 +2,158 @@
 <html lang = 'en'>
 
 <head>
-	<title>Twice Like</title>
+	<title> Feed | Instaclone</title>
 	<meta charset = 'UTF-8'>
-	<meta description='TT'>
+	<meta description='Instagram'>
+	<link href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
-<body>
-	<!-- Instagram Header -->
-	<header>
-		<div class = 'hearder_container'>
+	<body>
+
+	<!-- Header Upper side of the Instagram -->
+		<header>
+			<div class = 'navigation'>
+			
 			<!-- Logo of Instagram -->
-			<div class = 'logo_container'>
-				
-			</div>
+
+				<div class = 'navigation__column'>
+
+					<a href="feed.html">
+						<img
+						src="images/feed_logo.png" 
+						>
+					</a>
+					
+				</div>
 
 			<!-- Search -->
 
-			<div calss = 'search_container'>
+				<div calss = 'navigation__column'>
 
-				<div class = 'search_logo'>
+					<div class = 'search_icon'>
+						<i class = 'fa fa-search'></i>
+					</div>
+
+					<div class = 'search_input'>
+						<input type="text" placeholder="Search">
+					</div>
 					
 				</div>
 
-				<div calss = 'query'>
-					
+			
+			
+				<div class = 'navigation__column'>
+
+					<!-- Explorer -->
+					<a href="explore.html">
+						<i class='fa fa-compass'></i>
+					</a>
+
+					<!-- Likes -->
+					<a href="likes.html">
+						<i class='fa fa-heart-o'></i>
+					</a>
+
+					<!-- Profile -->
+					<a href="profile.html">
+						<i class='fa fa-user-o'></i>
+					</a>
+
 				</div>
 
 			</div>
 
-			<!-- Explorer -->
-			<div class = 'explorer_container'>
 
-				<div class = 'explore'>
-					
-				</div>
 
-				<div class = 'feed'>
-					
-				</div>
 
-				<div class = 'profile'>
-					
-				</div>
+		</header>
 
+		
+		<main>
+			
+		</main>
+		<footer>
+			
+		</footer>
+
+	<!-- Photo Display -->
+	<main class='feed_container'>
+
+	<!-- author info -->
+		<div class = 'author_container'>
+
+			<img src="images/avatar.jpg"
+			>
+			<div class = 'author_name'>
+				jihyo
+			</div>
+	
+		</div>
+
+	<!-- main image -->
+		<div class = 'author_name'>
+
+			<img src="images/twice.jpg"
+			>
+			
+		</div>
+	
+	<!-- contents container -->
+		<div class = 'contens_container'>
+
+			<div class = 'action_container'>
+				<i class = 'fa fa-heart-o'></i>
+				<i class = 'fa fa-comment-o'></i>
+			</div>
+			
+			<!-- Likes numeric -->
+
+			<span class = 'likes_count'>
+				
+				<span class = 'likes_number'>
+					119
+				</span>
+				Likes
+			</span>
+
+			<!-- Commnet -->
+			<ul class='comment_container'>
+
+				<li class = 'comment_content'>
+					<span class = 'comment_author'>
+						Sana</span> Cheese kimbob
+				</li>
+				
+				<li class = 'comment_content'>
+					<span class = 'comment_author'>
+						Eunhee Choi</span> Good company
+				</li>
+
+			</ul>
+		
+			<!-- uploaded time -->
+
+			<span class = 'contents_time'>13 hours ago
+			</span>
+
+
+			<!-- adding comment -->
+
+			<div class = 'addcomment_container'>
+				<input type="text" placeholder="Add comment here...">
+				<i class = 'fa fa-ellipsis-h'></i>
 			</div>
 
 		</div>
 
 
 
-
-	</header>
-
-	
-	<main>
-		
 	</main>
-	<footer>
-		
-	</footer>
 
 
 
 
 
 
-
-
-</body>
+	</body>
 </html>

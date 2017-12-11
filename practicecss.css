@@ -1,0 +1,26 @@
+.blue{
+
+	width: 100px;
+	height: 100px;
+
+	border: 1px blue solid;
+
+}
+
+.white{
+
+	width: 100px;
+	height: 100px;
+
+	border: 2px red solid;
+
+
+}
+
+.black{
+
+	width: 100px;
+	height: 100px;
+
+	border: 3px green dashed;
+}

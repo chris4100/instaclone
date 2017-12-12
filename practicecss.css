@@ -1,26 +1,52 @@
-.blue{
+.boxcontainer{
 
-	width: 100px;
-	height: 100px;
-
-	border: 1px blue solid;
-
-}
-
-.white{
-
-	width: 100px;
-	height: 100px;
-
-	border: 2px red solid;
-
+	display: flex;
+	/*justify-content: flex-start;*/
+	/*가능한 것 flex-start, flex-end, space-between, center*/
+	/*기본적으로  space-between하고 마진 넣기 */
+	
 
 }
 
-.black{
+.bluebox{
 
+	
+	box-sizing: border-box;
+	position: absolute;
+
+
+	background-color: blue;
 	width: 100px;
 	height: 100px;
 
-	border: 3px green dashed;
+/*	border: 1px blue solid;*/
+
+}
+
+.greenbox{
+
+	box-sizing: border-box;
+	position: relative;
+
+
+	background-color: green;
+	width: 100px;
+	height: 100px;
+
+/*	border: 2px red solid;*/
+
+
+}
+
+.yellowbox{
+
+	box-sizing: border-box;
+	position: absolute;
+
+
+	background-color: yellow;
+	width: 100px;
+	height: 100px;
+
+/*	border: 3px green dashed;*/
 }

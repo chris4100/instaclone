@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+
+<!-- 전반적으로 모든 코드에 img, input 등의 html 태그를 사용할 때 class를 지정해주시는 것이 좋습니다! -->
 <html lang = 'en'>
 
 <head>
@@ -14,8 +16,8 @@
 		<!-- login main image -->
 		<div class = 'login_main_image'>
 			
-			<img src="images/login_main_image.jpg"
-			>
+			<!-- Code Clarity : 더 깔끔하게 한줄로 써주는 것이 좋습니다 :) -->
+			<img src="images/login_main_image.jpg">
 
 		</div>
 
@@ -24,11 +26,15 @@
 
 			<div class = 'user_login'>
 
-				<img src="images/instagram_login_logo.png" >
+				<!-- 모든 image에는 클래스를 추가해주셔야 합니다 -->
+				<img
+				class= "" 
+				src="images/instagram_login_logo.png" >
 
 				<div class = 'user_id'>
 
-					<input type="text" placeholder="전화번호, 사용자 이름 또는 이메일">
+					<!-- 아래 input 값에도 class를 추가해주셔야 합니다  -->
+					<input class="" type="text" placeholder="전화번호, 사용자 이름 또는 이메일">
 					
 				</div>
 
@@ -67,13 +73,11 @@
 
 			<div class = 'app_download_link'>
 				
-				<span> 앱을 다운로드하세요.
-				</span>
+				<span> 앱을 다운로드하세요.</span>
 
 				<div>
 					
 					<img src="images/appstore_image.png" >
-
 					<img src="images/googleplay_image.png" >
 
 				</div>
